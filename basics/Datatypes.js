@@ -23,3 +23,17 @@ let nullVariable = null; // null // object
 let symbolVariable = Symbol("unique"); // symbol
 
 
+
+/********************** Primitive and Non-primitive *****************/
+
+// # Primitive  (call by value) mean refernece of original value is not given  copy of the value is given changes are done in the copy and original is not changed
+// 7 types : String , Number,boolean, null (empty) , undefined , symnol (unique) , BigIntw 
+
+const score = 100 
+
+// # Non primitve  or refernce type
+// Array , objects, functions
+
+
+
+
