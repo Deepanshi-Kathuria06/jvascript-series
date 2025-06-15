@@ -1,5 +1,5 @@
 const name = "Deepanshi"
-
+  
 const age = 20
 
 // console.log(name + age)
@@ -21,7 +21,7 @@ const gameName = new String('Deepanshi') //gives in key value pair
 // const stringone = gameName.slice(-4,4) // include negative values
 // console.log(stringone)
 
-// const newStringOne = "  hitesh  "
+// const newStringOne = " hitesh  "
 // console.log(newStringOne)
 // console.log(newStringOne.trim()) // remove blank spaces
 
