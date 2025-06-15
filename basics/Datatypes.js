@@ -34,6 +34,33 @@ const score = 100
 // # Non primitve  or refernce type
 // Array , objects, functions
 
+//   stack memory( primitive )  create the copy of the original and dont change the original one  and heap memory( non primitive)  take the reference of the original  and chnage the original one
+
+
+// stcak memory (call by value)
+// let name1 = "deepanshi"
+
+// let myname = name
+//  myname = "Deepanshi Kathuria"
+
+// console.log(name1)
+// console.log(myname)
+
+
+// call by reference
+
+let userone = {
+    email: "user1@gmail.com",
+    upi: "user@ybl"
+}
+
+let usertwo = userone
+
+usertwo.email = "userTwo@gmail.com"
+
+console.log("userone" ,userone)
+console.log("usertwo" , usertwo)
+
 
 
 
