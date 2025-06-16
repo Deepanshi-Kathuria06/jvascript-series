@@ -46,6 +46,21 @@ console.log(myarray[2])
 
 // Array methods
 
-myarr2.push(8) // add value to the array at the end
-console.log(myarr2);
+// myarr2.push(8) // add value to the array at the end
+// myarr2.pop();
+
+// myarr2.unshift(9); // insert at the starting of the array 3
+// myarr2.shift() // same as pop
+// console.log(myarr2);
+
+// myarr2.pop()
+
+// console.log(myarr2.includes(4)) // retruns false and true boolean value
+// console.log(myarr2.indexOf(2)); // returns  -1 if not  there  and returns index number if there 
+
+
+const newArr = myarr2.join();
+console.log( typeof newArr) // same output but returns type as a string
+console.log(myarr2) // same output
+
 
